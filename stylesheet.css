@@ -21,6 +21,13 @@ body {
   width: 100%;
   padding: 0 20px;
 }
+.message-wrapper h2 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .contact-form {
   max-width: 550px;
   margin: 0 auto;
@@ -67,9 +74,13 @@ body {
   text-align: center;
   padding: 15px;
   border-radius: 5px;
-  color: ;
+  color:#fff ;
   cursor: pointer;
   text-transform: uppercase;
+  opacity: 0.7;
+}
+.btn:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 600px) {
